@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday!</title>
+
+
+<!-- แทรกไฟล์เพลง -->
+<audio id="audioPlayer">
+  <source src="music.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio> <br>
+<button id="playButton">เปิดเพลง</button>
+  <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button id="open-button">🎀 กดเพื่อเปิดการ์ด 🎀</button>
+
+    <div id="storybook" class="hidden">
+      <div class="book" id="book">
+        <div class="cover">
+            <img src="https://i.pinimg.com/736x/f0/fb/53/f0fb5398a6789c6ef299879086ee7138.jpg" alt="Princess Cover">Happy Birthday Sister
+        </div>
+        <div class="page">
+          <h1>special day 🎂</h1>
+          <p>Wishing you  happiness, may you encounter only good things. Wherever you go, may you be surrounded by love. May your aspirations and intentions be fulfilled, and may you get to study what your heart desires. 💖</p>
+          <div class="balloons">🎈🎈🎈🎈🎈</div>
+          <button id="album-btn">ไปดูอัลบั้มรูป 📸</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
