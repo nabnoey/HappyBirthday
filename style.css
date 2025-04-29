@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
+    
 }
 
 .container {
@@ -68,11 +69,13 @@ body {
 .page {
     background: #fff0f5;
     transform: rotateY(180deg);
+    margin-top: -100px;
 }
 
 .cover {
     font-size: 1.2rem; /* Slightly smaller cover font */
     background: linear-gradient(135deg, #ffd1dc, #ffe6eb);
+    margin-top: -100px;
 }
 
 .cover img {
@@ -81,6 +84,7 @@ body {
     height: 100%; /* Make the image try to fill the cover height */
     object-fit: cover; /* Scale the image to cover the area, may crop */
     border-radius: inherit; /* Inherit the cover's border-radius */
+    
 }
 
 .page {
@@ -109,6 +113,9 @@ h1 {
     color: #D82C8D; /* Vibrant pink heading */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Softer shadow */
     margin-bottom: 30px; /* More space below the title */
+    position: relative;
+    top: -100px;
+    
 }
 
 .album {
@@ -117,6 +124,7 @@ h1 {
     justify-content: center;
     gap: 10px;
     margin: 20px;
+    margin-top: -100px;
   }
   
   .album img {
